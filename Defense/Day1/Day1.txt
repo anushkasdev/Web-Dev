@@ -1,0 +1,16 @@
+* Every device registered on the Internet .has an IP address. As soon as it is disconnected from the Internet, the device looses its IP address and it may be provided to another device.
+
+These IP addresses are provided by the ISP's. 
+
+As soon as the device asks for visiting a web page then, it searches the DNS to match the requested IP address. It finally serves the requested web page.
+
+Let's consider if my dvice has data about requested web page. If not, it then goes to recursive server. (DNS Resolver)
+
+If not found, it goes to root server (there are just 13 in the world). A root server specifies the type of website you have like , is it (.com, .edu, .net, .in).
+
+Now, the recursive server is redirected towards the TLD Server (It has an information to whether .com, .in, .net) exists.
+
+Finally, the call goes to authoritative server. that gives the requested IP address.
+
+Mac Address is actual the physical address of your device. Although, IP addresses are dynamic and they would go along with.
+
