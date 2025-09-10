@@ -1,0 +1,11 @@
+There is a certain limit till which you can access relative and absolute paths.
+The browser does not allows the file access outside of this folder, eg, web-dev. 
+
+This is a security step taken by the web browsers , eg, if you select a C:drive's image, it wont get display on the browser.
+
+The boilerplate code is necessary as it conatins information about SEO optimizations, it is a preferred way to write html code and , viewport, width-full refer to responsive design acc to the device, whether it is laptop, mobile etc.
+
+"UTF-8" is a library that converts every character onto the screen to its binary representation for the machine to understand it.
+
+
+Body has header, main, footer parts.
