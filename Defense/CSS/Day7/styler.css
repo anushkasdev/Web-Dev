@@ -1,0 +1,17 @@
+ul{
+  background-color:beige;
+}
+
+#first{
+  background-color: lightblue;
+}
+
+.list-external{
+  font-size:medium;
+  color: brown;
+}
+
+/*Group based selection*/
+h2, li{
+  font-style: italic;
+}
