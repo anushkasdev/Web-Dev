@@ -7,7 +7,17 @@
 </head>
 <body>
   <h1>This is our media website</h1>
-  <audio src="sample-file-1.mp3" controls></audio>
-  <video src="sample-360p.mp4" controls width="250px"></video>
+  <!-- <audio src="sample-file-1.mp3" controls></audio>
+  <video src="sample-360p.mp4" controls width="250px"></video> -->
+  <audio controls>
+    <source src="./sample-file-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <video controls width="250px">
+    <source src="./sample-360p.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <iframe src="https://www.youtube.com/embed/qqMSXoISS5c" frameborder="0" allowfullscreen></iframe>
+  
 </body>
 </html>
